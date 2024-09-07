@@ -1,0 +1,122 @@
+.light-bg {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.bg {
+  background-color: #191b1f;
+}
+body {
+  color: #4488dd;
+  background: #01090f;
+}
+a {
+  color: #22c8f9;
+}
+#content {
+  max-width: 640px;
+  margin: 0 auto;
+}
+.topcoat-button,
+.topcoat-button--quiet,
+.topcoat-button--large,
+.topcoat-button--large--quiet,
+.topcoat-button--cta,
+.topcoat-button--large--cta,
+.topcoat-button-bar__button,
+.topcoat-button-bar__button--large,
+.topcoat-icon-button,
+.topcoat-icon-button--quiet,
+.topcoat-icon-button--quiet,
+.topcoat-icon-button--large,
+.topcoat-icon-button--large--quiet,
+.topcoat-icon-button--large--quiet,
+.topcoat-search-input,
+.topcoat-search-input--large,
+.topcoat-switch__toggle:before,
+.topcoat-switch__toggle:after,
+.topcoat-tab-bar__button,
+.topcoat-text-input,
+.topcoat-text-input--large,
+.topcoat-textarea,
+.topcoat-textarea--large {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.topcoat-button:hover,
+.topcoat-button--quiet:hover,
+.topcoat-button--large:hover,
+.topcoat-button--large--quiet:hover,
+.topcoat-button--cta:hover,
+.topcoat-button--large--cta:hover,
+.topcoat-button-bar__button:hover,
+.topcoat-button-bar__button--large:hover,
+.topcoat-icon-button:hover,
+.topcoat-icon-button--quiet:hover,
+.topcoat-icon-button--quiet:hover,
+.topcoat-icon-button--large:hover,
+.topcoat-icon-button--large--quiet:hover,
+.topcoat-icon-button--large--quiet:hover,
+.topcoat-search-input:hover,
+.topcoat-search-input--large:hover,
+.topcoat-switch__toggle:before:hover,
+.topcoat-switch__toggle:after:hover,
+.topcoat-tab-bar__button:hover,
+.topcoat-text-input:hover,
+.topcoat-text-input--large:hover,
+.topcoat-textarea:hover,
+.topcoat-textarea--large:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.topcoat-button:focus,
+.topcoat-button--quiet:focus,
+.topcoat-button--large:focus,
+.topcoat-button--large--quiet:focus,
+.topcoat-button--cta:focus,
+.topcoat-button--large--cta:focus,
+.topcoat-button-bar__button:focus,
+.topcoat-button-bar__button--large:focus,
+.topcoat-icon-button:focus,
+.topcoat-icon-button--quiet:focus,
+.topcoat-icon-button--quiet:focus,
+.topcoat-icon-button--large:focus,
+.topcoat-icon-button--large--quiet:focus,
+.topcoat-icon-button--large--quiet:focus,
+.topcoat-search-input:focus,
+.topcoat-search-input--large:focus,
+.topcoat-switch__toggle:before:focus,
+.topcoat-switch__toggle:after:focus,
+.topcoat-tab-bar__button:focus,
+.topcoat-text-input:focus,
+.topcoat-text-input--large:focus,
+.topcoat-textarea:focus,
+.topcoat-textarea--large:focus {
+  border-color: #4e80d1;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.36), 0 0 0 2px #4e80d1;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.topcoat-checkbox__checkmark:before,
+.topcoat-radio-button__checkmark:before,
+.topcoat-navigation-bar,
+.topcoat-range {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.topcoat-text-input:invalid,
+.topcoat-text-input--large:invalid {
+  border-color: #d53770;
+}
+.topcoat-notification {
+  background-color: #d53770;
+}
+.topcoat-list {
+  background-color: transparent;
+}
+.topcoat-list .topcoat-list__header {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.topcoat-list .topcoat-list__container {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.topcoat-range::-webkit-slider-thumb {
+  background-color: #191b1f;
+}
+.topcoat-range::-moz-range-thumb {
+  background-color: #191b1f;
+}
