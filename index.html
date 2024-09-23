@@ -16,51 +16,60 @@
    </head>
    <body data-bs-theme="dark" data-bs-core="elegant" class="text-body h-100 w-100 p-0 m-0">
       <!-- Header -->
-      <header class="container fixed-top bg-primary-subtle bg-opacity-100 bg-gradient shadow border border-5 border-primary border-start-0 border-top-0 border-bottom-0 rounded rounded-bottom-pill rounded-start-0 shadow py-0 ms-0 ps-0">
-         <div class="container-fluid bg-primary-subtle bg-opacity-50 rounded rounded-bottom-pill rounded-start-0 shadow py-0 ps-0">
-            <nav aria-label="Main Navigation" class="navbar navbar-expand-md bg-gradient bg-opacity-50 rounded rounded-bottom-pill rounded-start-0 border-bottom-0 border border-5 border-primary border-start-0 border-top-0 shadow py-0 ps-0">
-               <div class="container-fluid text-bg-secondary bg-opacity-50 border border-5 border-start-0 border-top-0 border-bottom-0 border-primary rounded rounded-bottom-pill rounded-start-0 shadow py-0 ps-0">
-                  <a class="navbar-brand rounded rounded-bottom-pill rounded-start-0 rounded-top-0 border-bottom-0 border border-5 border-primary border-start-0 border-top-0 text-bg-secondary bg-opacity-50 shadow bg-gradient row px-2 py-0 ps-0" href="#">
-                     <img src="./img/logo.png" alt="Logo" class="col d-inline-block rounded-pill rounded-start-0 rounded-top-0 border border-primary border-start-0 border-top-0 border-bottom-0 border-5 bg-body bg-gradient img-fluid" style="height: 128px;width: 158px;">
-                     <span class="d-inline-block col align-middle h-100 px-auto py-0  ">
-                        <h1 class="row pb-0 mb-0 text-body pt-3">Olimpia General</h1>
-                        <sub class="row pt-0 mt-0 text-body text-center d-block">& Cleaning Services Corp</sub>
-                     </span>
-                  </a>
-                  <button class="navbar-toggler topcoat-icon-button--large" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                  <div class="collapse navbar-collapse" id="navbar-collapse">
-                                              <div class="text-bg-body btn-group float-end">
-                  <input type="button" id="login-signup-button" class="btn btn-success btn-outline-success text-bg-success topcoat-button" value="Login/Signup"/>
-                  <input type="button" id="search-button" class="btn btn-info btn-outline-info text-bg-info topcoat-button" value="🔍"/>
-               </div>
-                     <ul class="nav nav-pills navbar-nav text-bg-body bg-opacity-100 ms-auto">
-                        <li class="nav-item">
-                           <a class="topcoat-button--quiet nav-link" href="#hero">Home</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="topcoat-button--quiet nav-link" href="#about">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="topcoat-button--quiet nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="topcoat-button--quiet nav-link" href="#pricing">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="topcoat-button--quiet nav-link" href="#gallery">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="topcoat-button--quiet nav-link" href="#testimonials">Testimonials</a>
-                        </li>
-                        <li class="nav-item"><a class="topcoat-button--quiet nav-link" href="#contact">Contact</a></li>
-                     </ul>
-                  </div>
-               </div>
-
-      
-            </nav>
-         </div>
-      </header>
+      <header class="container fixed-top bg-body bg-opacity-100 shadow border border-5 border-primary border-start-0 border-top-0 border-bottom-0 rounded rounded-bottom-pill rounded-start-0 shadow p-0 ms-0">
+			<div class="container-fluid bg-body bg-opacity-25 rounded rounded-bottom-pill rounded-start-0 shadow py-0 ps-4">
+				<!-- Main Navigation -->
+				<nav aria-label="Main Navigation" class="navbar navbar-expand-md bg-body bg-gradient bg-opacity-25 rounded rounded-bottom-pill rounded-start-0 border-bottom-0 border border-5 border-primary border-start-0 border-top-0 shadow py-0 ps-0 ms-0 me-auto">
+					<div class="container-fluid text-bg-secondary bg-body bg-opacity-25 border border-5 border-start-0 border-top-0 border-bottom-0 border-primary rounded rounded-bottom-pill rounded-start-0 shadow py-0 ps-0">
+						<!-- Branding -->
+						<figure class="navbar-brand figure rounded rounded-bottom-pill rounded-start-0 rounded-top-0 border-bottom-0 border border-5 border-primary border-start-0 border-top-0 text-bg-secondary bg-opacity-50 shadow bg-gradient row px-2 py-0 ps-0" href="#">
+							<img src="./img/logo.png" alt="Logo" class="figure-img col d-inline-block rounded-pill rounded-start-0 rounded-top-0 border border-primary border-start-0 border-top-0 border-bottom-0 border-5 bg-body bg-gradient img-fluid" style="height: 128px;width: 158px;">
+							<figcaption class="figure-caption d-inline-block col align-middle h-100 px-auto py-0">
+								<h1 id="logo-title" class="allura-regular row pb-0 mb-0 text-body pt-3 pe-3">Olimpia General</h1>
+								<sub id="logo-subtitle" class="row pt-0 mt-0 text-primary text-center d-block">& Cleaning Services Corp.</sub>
+							</figcaption>
+						</figure>
+						<div class="collapse navbar-collapse" id="navbar-collapse">
+							<ul class="nav nav-pills bg-secondary topcoat-list navbar-nav ms-auto rounded-bottom-pill rounded-start-0 border border-start-0 border-top-0 border-bottom-0 border-5 me-5">
+								<li class="nav-item topcoat-list__item py-1">
+									<a class="topcoat-button--large--quiet nav-link" href="#about">About Us</a>
+								</li>
+								<li class="nav-item topcoat-list__item py-1"> 
+									<a class="topcoat-button--large--quiet nav-link" href="#services">Services</a>
+								</li>
+								<li class="nav-item topcoat-list__item py-1">
+									<a class="topcoat-button--large--quiet nav-link" href="#gallery">Gallery</a>
+								</li>
+								<li class="nav-item topcoat-list__item py-1">
+									<a class="topcoat-button--large--quiet nav-link" href="#testimonials">Testimonials</a>
+								</li>
+								<li class="nav-item rounded-bottom-pill rounded-start-0 topcoat-list__item py-1">
+									<a class="topcoat-button--large--quiet nav-link rounded-bottom-pill rounded-start-0" href="#contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="text-bg-body float-start">
+						<!-- Secondary Navigation -->
+						<nav class="btn-group">
+							<!-- Search Bar -->
+							<search class="text-bg-primary">
+								<form class="input-group">
+									<input id="search-input" placeholder="Enter Search" type="text" class="rounded-0 d-none text-body bg-body form-control topcoat-search-input" style="width:0;transition:width 0.3s;" />
+									<input type="submit" id="search-button" class="rounded-0 w-auto btn btn-info btn-outline-info text-bg-info topcoat-button--large" value="🔍" />
+								</form>
+							</search>
+							<!-- Login Button -->
+							<input type="button" id="login-signup-button" class="btn btn-success btn-outline-success text-bg-success topcoat-button" value="Login" data-bs-toggle="modal" data-bs-target="#login-signup-modal" />
+							<!-- Menu Collapse Toggle -->
+							<button class="navbar-toggler btn topcoat-icon-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+							</button>
+						</nav>
+					</div>
+				</nav>
+			</div>
+		</header>
       <main data-bs-spy="scroll" class="text-center container py-5 my-5" style="background-image: url('./img/logo2.png');background-repeat:no-repeat;background-size:100%;">
          <!-- Hero Section -->
          <article id="hero" data-bs-target="#hero" class="container rounded-5 p-5 my-5">
