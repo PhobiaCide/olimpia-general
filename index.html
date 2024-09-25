@@ -121,146 +121,262 @@
 				</section>
 			</article>
          <!-- Services Section -->
-<article id="services" class="container rounded-5 p-5" style="background-image: url('./img/logo2.png'); background-repeat: repeat-y; background-size: 100%;">
-  <section class="bg-body">
-    <h2>Our Services</h2>
-    <div class="service-list">
-      <!-- Service Items -->
-      <div class="service-item" aria-labelledby="general-cleaning">
-        <div class="service-icon" aria-hidden="true">🧹</div>
-        <h3 id="general-cleaning">General Cleaning</h3>
-        <p>We provide comprehensive cleaning services to keep your home sparkling clean.</p>
-        <a href="#" class="read-more" aria-label="Read more about General Cleaning">Read More</a>
-      </div>
-
-      <!-- Professional Cleaning Services List -->
-      <div class="service-details">
-        <h3>Professional Cleaning Services for:</h3>
-        <ul class="list-container v-stack">
-          <li>House</li>
-          <li>Office</li>
-          <li>Storage</li>
-          <li>Garage</li>
-          <li>Outdoor Spaces</li>
-          <li>and more...</li>
-        </ul>
-      </div>
-
-      <!-- Areas Covered -->
-      <div class="service-coverage">
-        <h3>We cover:</h3>
-        <ul class="coverage-list">
-          <li>Windows</li>
-          <li>Carpets</li>
-          <li>Closets</li>
-          <li>Move-ins</li>
-          <li>Construction Clean-up (Renovations)</li>
-          <li>Outdoor Spaces</li>
-          <li>Offices</li>
-          <li>Laundry Rooms</li>
-          <li>Gyms</li>
-          <li>Other areas</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing Section -->
-  <section id="pricing" class="pricing bg-body">
-    <h2>Our Pricing</h2>
-    <table class="pricing-table table table-bordered" aria-describedby="pricing-caption">
-      <caption id="pricing-caption">List of available cleaning packages and their pricing.</caption>
-      <thead>
-        <tr>
-          <th scope="col">Package</th>
-          <th scope="col">Services Included</th>
-          <th scope="col">Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Basic Service</td>
-          <td>Single Room Cleaning</td>
-          <td>$50<sup class="text-warning">*</sup></td>
-        </tr>
-        <tr>
-          <td>Standard Package</td>
-          <td>Kitchen & Bathrooms</td>
-          <td>$75</td>
-        </tr>
-        <tr>
-          <td>Deluxe Package</td>
-          <td>Bedrooms & Laundry</td>
-          <td>$75</td>
-        </tr>
-        <!-- More rows for other packages -->
-      </tbody>
-    </table>
-    <!-- List group with custom content and badges -->
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-2">
-    <div class="me-auto">
-      <div class="fw-bold">Product 1</div>
-      <span class="text-body-secondary">Short description</span>
-    </div>
-    <span class="badge text-bg-primary rounded-pill">$19.99</span>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-2">
-    <div class="me-auto">
-      <div class="fw-bold">Product 2</div>
-      <span class="text-body-secondary">Short description</span>
-    </div>
-    <span class="badge text-bg-primary rounded-pill">$24.99</span>
-  </a>
-  <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center py-2">
-    <div class="me-auto">
-      <div class="fw-bold">Product 3</div>
-      <span class="text-body-secondary">Short description</span>
-    </div>
-    <span class="badge text-bg-primary rounded-pill">$49.99</span>
-  </a>
-</div>
-  </section>
-
-  <!-- Gallery Section -->
-  <section id="gallery" class="gallery">
-    <h2>Gallery</h2>
-    <div class="image-grid">
-      <!-- Repeat for each image -->
-      <figure>
-        <img src="before1.jpg" alt="Before Cleaning">
-        <figcaption>Before Cleaning</figcaption>
-      </figure>
-      <figure>
-        <img src="after1.jpg" alt="After Cleaning">
-        <figcaption>After Cleaning</figcaption>
-      </figure>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials">
-    <h2>Testimonials</h2>
-    <div class="testimonial-carousel" aria-live="polite">
-      <!-- Testimonial Card -->
-      <div class="testimonial-card">
-        <img src="client1.jpg" alt="Client 1" class="testimonial-photo">
-        <blockquote>"Olimpia's team did a fantastic job!"</blockquote>
-        <cite>– Jane Doe</cite>
-      </div>
-      <!-- More testimonials -->
-    </div>
-  </section>
-
-  <!-- Quote Calculator Section -->
-  <section id="quote" class="quote-calculator bg-body">
-    <h2>Get a Quote</h2>
-    <form id="quote-form">
-      <!-- Include dropdowns, sliders, and checkboxes -->
-      <button type="submit" class="btn topcoat-button">Calculate Quote</button>
-    </form>
-  </section>
-</article>
+<article id="services" class="container rounded-pill py-5 my-5" style="background-image: url('./img/logo2.png'); background-repeat: repeat-y; background-size: 100%;">
+				<section class="card w-md-75 mx-auto py-5">
+					<h2>Our Services</h2>
+					<!-- Service Items -->
+					<div class="service-item card mx-auto p-5 w-md-75" aria-labelledby="general-cleaning">
+						<div class="service-icon fs-1" aria-hidden="true">🧹</div>
+						<h3 id="general-cleaning">General Cleaning</h3>
+						<p>We provide comprehensive cleaning services to keep your home sparkling clean.</p>
+						<a href="#" class="read-more" aria-label="Read more about General Cleaning">Read More</a>
+					</div>
+				</section>
+				<section class="card w-md-75 mx-auto py-5">
+					<!-- Professional Cleaning Services List -->
+					<div class="card service-details mx-auto w-md-75 topcoat-list__container">
+						<header class="topcoat-list__header card-header">
+							<h3 class="">Professional Cleaning Services for:</h3>
+						</header>
+						<ul class="list-group topcoat-list">
+							<li class="list-group-item topcoat-list__item">House</li>
+							<li class="list-group-item topcoat-list__item">Office</li>
+							<li class="list-group-item topcoat-list__item">Storage</li>
+							<li class="list-group-item topcoat-list__item">Garage</li>
+							<li class="list-group-item topcoat-list__item">Outdoor Spaces</li>
+							<li class="list-group-item topcoat-list__item">and more...</li>
+						</ul>
+					</div>
+				</section>
+				<section class="card w-md-75 mx-auto py-5">
+					<div class="container">
+						<div class="d-lg-flex">
+							<div class="row d-md-flex align-items-center mb-lg-0 mb-md-5">
+								<div class="container">
+									<div class="card pb-4">
+										<span class="fab fa-envira mt-3"></span>
+										<p class="h4 pt-4">Cleaning</p>
+										<p class="p1 text-muted">
+											General cleaning is in our name!
+										</p>
+										<span class="fas fa-arrow-right"></span>
+									</div>
+								</div>
+								<div class="container">
+									<div class="card pb-4">
+										<span class="fas fa-boxes-packing mt-3"></span>
+										<p class="h4 pt-4">Packing</p>
+										<p class="p1 text-muted">
+											We'll help you pack your things for a move.
+										</p>
+										<span class="fas fa-arrow-right"></span>
+									</div>
+								</div>
+								<div class="container">
+									<div class="card pb-4">
+										<span class="fas fa-mug-saucer mt-3"></span>
+										<p class="h4 pt-4">Dishes</p>
+										<p class="p1 text-muted">
+											Got a pile of dishes in the sink?
+										</p>
+										<span class="fas fa-arrow-right"></span>
+									</div>
+								</div>
+								<div class="container">
+									<div class="card pb-4">
+										<span class="fas fa-list-check mt-3"></span>
+										<p class="h4 pt-4">Organizing</p>
+										<p class="p1 text-muted">
+											File this under "D" for done.
+										</p>
+										<span class="fas fa-arrow-right"></span>
+									</div>
+								</div>
+								<div class="container">
+									<div class="card pb-4">
+										<span class="fa-solid fa-biohazard mt-3"></span>
+										<p class="h4 pt-4">Sanitizing</p>
+										<p class="p1 text-muted">
+											So clean, you can't see it with a microscope!
+										</p>
+										<span class="fas fa-arrow-right"></span>
+									</div>
+								</div>
+								<div class="container">
+									<div class="card pb-4">
+										<span class="fa-solid fa-biohazard mt-3"></span>
+										<p class="h4 pt-4">Deodorizing</p>
+										<p class="p1 text-muted">
+											Breath easy
+										</p>
+										<span class="fas fa-arrow-right"></span>
+									</div>
+								</div>
+								<div class="container">
+									<div class="card pb-4">
+										<span class="fa-solid fa-socks mt-3"></span>
+										<p class="h4 pt-4">Laundry</p>
+										<p class="p1 text-muted">
+											We'll be happy to wash and fold if you wish
+										</p>
+										<span class="fas fa-arrow-right"></span>
+									</div>
+								</div>
+							</div>
+							<div class="">
+								<div class="content">
+									<span class="h-6">Services</span>
+									<p class=" h2 mb-4">Lawn Services</p>
+									<p class="text-muted mb-4">A small river named Duden flows by their place and supplies it with the
+										necessary regelialia. It
+										is a paradisematic country, in which roasted parts of sentences fly into your.
+									</p>
+									<p><a href="#" class="btn btn-primary">Get a Quote</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="card w-md-75 mx-auto py-5">
+					<!-- Areas Covered -->
+					<div class="card w-md-75 mx-auto service-coverage topcoat-list__container border border-5 border-top-0 border-bottom-0 my-5">
+						<header class="topcoat-list__header card-header">
+							<h3 class="">We cover:</h3>
+						</header>
+						<ul class="list-group topcoat-list">
+						<li class="list-group-item list-item topcoat-list__item">
+							Windows
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Carpets
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Closets
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Move-ins
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Construction Clean-up (Renovations)
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Outdoor Spaces
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Offices
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Laundry Rooms
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Gyms
+						</li>
+						<li class="list-group-item list-item topcoat-list__item">
+							Other areas
+						</li>
+					</div>
+				</section>
+				<!-- Pricing Section -->
+				<section id="pricing" class="card w-md-75 mx-auto py-5 pricing">
+					<h2>Our Pricing</h2>
+					<!-- 
+						<table class="pricing-table table table-bordered" aria-describedby="pricing-caption">
+						    <caption id="pricing-caption">List of available cleaning packages and their pricing.</caption>
+						    <thead>
+						       <tr>
+						          <th scope="col">Package</th>
+						          <th scope="col">Services Included</th>
+						          <th scope="col">Price</th>
+						       </tr>
+						    </thead>
+						    <tbody>
+						       <tr>
+						          <td>Basic Service</td>
+						          <td>Single Room Cleaning</td>
+						          <td>$50<sup class="text-warning">*</sup></td>
+						       </tr>
+						       <tr>
+						          <td>Standard Package</td>
+						          <td>Kitchen & Bathrooms</td>
+						          <td>$75</td>
+						       </tr>
+						       <tr>
+						          <td>Deluxe Package</td>
+						          <td>Bedrooms & Laundry</td>
+						          <td>$75</td>
+						       </tr>
+						       <!-- More rows for other packages -->
+					<!--
+						</tbody>
+						</table>
+						-->
+					<!-- List group with custom content and badges -->
+					<ul class="accordion card rounded mx-auto">
+						<li class="accordian-item d-flex justify-content-between align-items-center py-2">
+							<header class="me-auto accordion-header">
+								<button class="accordion-button topcoat-button--large" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1-1" aria-expanded="true" aria-controls="collapse-1-1">
+								Product 1
+								</button>
+								<div id="collapse-1-1" class="accordion-collapse collapse show" data-bs-parent="#accordion-example-1">
+									<div class="accordion-body">
+										This is the <strong>first item's</strong> accordion body, and it is shown by default.
+									</div>
+								</div>
+							</header>
+							<div class="badge text-bg-primary rounded-pill me-2">$19.99</div>
+						</li>
+						<li class="d-flex justify-content-between align-items-center py-2">
+							<div class="me-auto table-header">
+								<div class="fw-bold">Product 2</div>
+								<span class="text-body-secondary">Short description</span>
+							</div>
+							<div class="badge text-bg-primary rounded-pill me-2">$24.99</div>
+						</li>
+						<li class="d-flex justify-content-between align-items-center py-2">
+							<div class="me-auto table-header">
+								<div class="fw-bold">Product 3</div>
+								<span class="text-body-secondary">Short description</span>
+							</div>
+							<div class="badge text-bg-primary rounded-pill me-2">$49.99</div>
+						</li>
+					</ul>
+				</section>
+				<!-- Gallery Section -->
+				<section id="gallery" class="card w-md-75 mx-auto py-5 gallery">
+					<h2>Gallery</h2>
+					<div class="image-grid">
+						<!-- Repeat for each image -->
+						<figure>
+							<img src="before1.jpg" alt="Before Cleaning">
+							<figcaption>Before Cleaning</figcaption>
+						</figure>
+						<figure>
+							<img src="after1.jpg" alt="After Cleaning">
+							<figcaption>After Cleaning</figcaption>
+						</figure>
+					</div>
+				</section>
+				<!-- Testimonials Section -->
+				<section id="testimonials" class="card w-md-75 mx-auto py-5 testimonials">
+					<h2>Testimonials</h2>
+					<div class="testimonial-carousel" aria-live="polite">
+						<!-- Testimonial Card -->
+						<div class="testimonial-card card">
+							<img src="client1.jpg" alt="Client 1" class="testimonial-photo">
+							
+							
+							<blockquote>
+                <span class="fa-solid fa-quote-left ms-0 me-auto pe-2"></span>
+                Olimpia's team did a fantastic job!
+                <span class="fa-solid fa-quote-right me-0 ms-auto ps-2"></span>
+              </blockquote>
+							<cite>– Jane Doe</cite>
+						</div>
+						<!-- More testimonials -->
+					</div>
+				</section>
+        </article>
+      <article>
 
 <!-- Contact Us Section -->
 <article id="contact" class="container rounded-5 p-5" style="background-image: url('./img/logo2.png'); background-repeat: repeat-y; background-size: 100%;">
